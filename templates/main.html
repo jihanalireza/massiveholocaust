@@ -1,0 +1,28 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+	<meta charset="UTF-8">
+	<title>Massive Holocaust</title>
+	<link rel="shortcut icon" href="http://maternaldisaster.com/public/assets/img/ico.png" type="image/x-icon" />
+	{% include "snippets/style.html" %}
+</head>
+<body>
+	{% include "snippets/mainmenu.html" %}
+	<div class='cursor' id="cursor"></div>
+	<div class='cursor2' id="cursor2"></div>
+	<div class='cursor3' id="cursor3"></div> 
+	<div class='cursor4' id="cursor4"></div> 
+
+	<div>
+	<img class="top-center" style="height:150px;" src="{% static "img/massive.png" %}">
+	</div>
+	<div class="bottom-right">								
+		<div class="switch">
+			<div class="circle hover-target"></div>
+		</div>									
+	</div>
+</body>
+	{% include "snippets/scripts.html" %}
+</html>
